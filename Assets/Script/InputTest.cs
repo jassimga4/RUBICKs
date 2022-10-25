@@ -9,7 +9,7 @@ public class InputTest : MonoBehaviour
 
     void Start()
     {
-        this.controller = DS4.getConroller();
+        this.controller = DS4.getController();
         m_transform = this.transform;
     }
 
@@ -19,7 +19,7 @@ public class InputTest : MonoBehaviour
         {
             try
             {
-                controller = DS4.getConroller();
+                controller = DS4.getController();
             }
             catch (Exception e)
             {

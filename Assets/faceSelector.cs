@@ -4,10 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class faceSelector : MonoBehaviour
+public class FaceSelector : MonoBehaviour
 {
     //fbudlr
     public CreateCube cube;
+
+    
 
     public Dictionary<string, GameObject> faces = new Dictionary<string, GameObject>();
     private Gamepad controller = null;
@@ -16,10 +18,8 @@ public class faceSelector : MonoBehaviour
     void Start()
     {
         StartCoroutine(GetCubeOrientation());
-        this.controller = DS4.getConroller();
+        this.controller = DS4.getController();
         cubeSpawner = this.transform;
-
-
     }
 
     
@@ -32,7 +32,7 @@ public class faceSelector : MonoBehaviour
         {
             try
             {
-                controller = DS4.getConroller();
+                controller = DS4.getController();
             }
             catch (Exception e)
             {

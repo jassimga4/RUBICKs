@@ -116,6 +116,15 @@ public partial class @DS4Controller : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Options"",
+                    ""type"": ""Button"",
+                    ""id"": ""4bd703c8-7c97-469e-94c4-499d43600704"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -228,6 +237,199 @@ public partial class @DS4Controller : IInputActionCollection2, IDisposable
                     ""action"": ""Ri"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d17e4cbf-7b18-4d01-bfa4-c18f474c7f71"",
+                    ""path"": ""<DualShockGamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Options"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c21ba5d9-2fb8-4a7b-a9ac-e0e9a228d4be"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Options"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""MainMenu"",
+            ""id"": ""3be1b65b-3394-4de4-9b7e-c34233b8ecd9"",
+            ""actions"": [
+                {
+                    ""name"": ""Inputavailable"",
+                    ""type"": ""Button"",
+                    ""id"": ""afabb7d0-5375-40cd-8b78-3c4498487011"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""cbfd605d-61e4-4dc1-8bd6-08f2cf9aea1f"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inputavailable"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d21c39de-8f2e-4e66-a7a3-6618f72bbdbb"",
+                    ""path"": ""<Gamepad>/dpad/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inputavailable"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9018c5b4-a1bd-43fa-837d-2023c1208b24"",
+                    ""path"": ""<Gamepad>/dpad/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inputavailable"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0fd9e673-1546-4a05-9738-cb871656e526"",
+                    ""path"": ""<Gamepad>/dpad/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inputavailable"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b4c04f33-c434-48eb-9cb1-41520da2819b"",
+                    ""path"": ""<Gamepad>/dpad/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inputavailable"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9c938adc-1294-46b9-9860-f756ba8b2c6d"",
+                    ""path"": ""<Gamepad>/buttonNorth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inputavailable"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ec43e31a-b685-468c-bc2a-e106b93d0c11"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inputavailable"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""fec8030e-263d-48bd-a32c-b4fa7bdbb9eb"",
+                    ""path"": ""<Gamepad>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inputavailable"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0d1558f7-1c4e-4be4-bd3a-200daa223cab"",
+                    ""path"": ""<Gamepad>/rightTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inputavailable"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c0a7f1db-de43-4d13-b003-045ec83b3120"",
+                    ""path"": ""<Gamepad>/leftTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inputavailable"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""beaf6a67-3274-418f-9f6d-0d2bf727bdd3"",
+                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inputavailable"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6d2e3df4-e858-4758-a7d5-b9f4df520da3"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inputavailable"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""89c55393-fd67-478f-9b67-93a3e37cd2ed"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inputavailable"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""954a77dd-73fd-442e-b213-b9059229afb9"",
+                    ""path"": ""<Keyboard>/anyKey"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Inputavailable"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -246,6 +448,10 @@ public partial class @DS4Controller : IInputActionCollection2, IDisposable
         m_Rubiks_Li = m_Rubiks.FindAction("Li", throwIfNotFound: true);
         m_Rubiks_R = m_Rubiks.FindAction("R", throwIfNotFound: true);
         m_Rubiks_Ri = m_Rubiks.FindAction("Ri", throwIfNotFound: true);
+        m_Rubiks_Options = m_Rubiks.FindAction("Options", throwIfNotFound: true);
+        // MainMenu
+        m_MainMenu = asset.FindActionMap("MainMenu", throwIfNotFound: true);
+        m_MainMenu_Inputavailable = m_MainMenu.FindAction("Inputavailable", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -315,6 +521,7 @@ public partial class @DS4Controller : IInputActionCollection2, IDisposable
     private readonly InputAction m_Rubiks_Li;
     private readonly InputAction m_Rubiks_R;
     private readonly InputAction m_Rubiks_Ri;
+    private readonly InputAction m_Rubiks_Options;
     public struct RubiksActions
     {
         private @DS4Controller m_Wrapper;
@@ -329,6 +536,7 @@ public partial class @DS4Controller : IInputActionCollection2, IDisposable
         public InputAction @Li => m_Wrapper.m_Rubiks_Li;
         public InputAction @R => m_Wrapper.m_Rubiks_R;
         public InputAction @Ri => m_Wrapper.m_Rubiks_Ri;
+        public InputAction @Options => m_Wrapper.m_Rubiks_Options;
         public InputActionMap Get() { return m_Wrapper.m_Rubiks; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -368,6 +576,9 @@ public partial class @DS4Controller : IInputActionCollection2, IDisposable
                 @Ri.started -= m_Wrapper.m_RubiksActionsCallbackInterface.OnRi;
                 @Ri.performed -= m_Wrapper.m_RubiksActionsCallbackInterface.OnRi;
                 @Ri.canceled -= m_Wrapper.m_RubiksActionsCallbackInterface.OnRi;
+                @Options.started -= m_Wrapper.m_RubiksActionsCallbackInterface.OnOptions;
+                @Options.performed -= m_Wrapper.m_RubiksActionsCallbackInterface.OnOptions;
+                @Options.canceled -= m_Wrapper.m_RubiksActionsCallbackInterface.OnOptions;
             }
             m_Wrapper.m_RubiksActionsCallbackInterface = instance;
             if (instance != null)
@@ -402,10 +613,46 @@ public partial class @DS4Controller : IInputActionCollection2, IDisposable
                 @Ri.started += instance.OnRi;
                 @Ri.performed += instance.OnRi;
                 @Ri.canceled += instance.OnRi;
+                @Options.started += instance.OnOptions;
+                @Options.performed += instance.OnOptions;
+                @Options.canceled += instance.OnOptions;
             }
         }
     }
     public RubiksActions @Rubiks => new RubiksActions(this);
+
+    // MainMenu
+    private readonly InputActionMap m_MainMenu;
+    private IMainMenuActions m_MainMenuActionsCallbackInterface;
+    private readonly InputAction m_MainMenu_Inputavailable;
+    public struct MainMenuActions
+    {
+        private @DS4Controller m_Wrapper;
+        public MainMenuActions(@DS4Controller wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Inputavailable => m_Wrapper.m_MainMenu_Inputavailable;
+        public InputActionMap Get() { return m_Wrapper.m_MainMenu; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(MainMenuActions set) { return set.Get(); }
+        public void SetCallbacks(IMainMenuActions instance)
+        {
+            if (m_Wrapper.m_MainMenuActionsCallbackInterface != null)
+            {
+                @Inputavailable.started -= m_Wrapper.m_MainMenuActionsCallbackInterface.OnInputavailable;
+                @Inputavailable.performed -= m_Wrapper.m_MainMenuActionsCallbackInterface.OnInputavailable;
+                @Inputavailable.canceled -= m_Wrapper.m_MainMenuActionsCallbackInterface.OnInputavailable;
+            }
+            m_Wrapper.m_MainMenuActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Inputavailable.started += instance.OnInputavailable;
+                @Inputavailable.performed += instance.OnInputavailable;
+                @Inputavailable.canceled += instance.OnInputavailable;
+            }
+        }
+    }
+    public MainMenuActions @MainMenu => new MainMenuActions(this);
     public interface IRubiksActions
     {
         void OnUi(InputAction.CallbackContext context);
@@ -418,5 +665,10 @@ public partial class @DS4Controller : IInputActionCollection2, IDisposable
         void OnLi(InputAction.CallbackContext context);
         void OnR(InputAction.CallbackContext context);
         void OnRi(InputAction.CallbackContext context);
+        void OnOptions(InputAction.CallbackContext context);
+    }
+    public interface IMainMenuActions
+    {
+        void OnInputavailable(InputAction.CallbackContext context);
     }
 }

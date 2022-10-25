@@ -18,7 +18,7 @@ public class DS4
 
     public static Gamepad controller = null;
 
-    public static Gamepad getConroller(string layoutFile = null)
+    public static Gamepad getController(string layoutFile = null)
     {
         // Read layout from JSON file
         string layout = File.ReadAllText(layoutFile == null ? "Assets/Script/customLayout.json" : layoutFile);
